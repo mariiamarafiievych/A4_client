@@ -26,7 +26,7 @@ public class OrderGrpcMethod {
         }
     }
 
-    public void orderedThingReport(){
+    public void orderedItemReport(){
         ManagedChannel channel = ManagedChannelBuilder.forAddress("127.0.0.1", port).usePlaintext().build();
         orderServiceGrpc.orderServiceBlockingStub stub = orderServiceGrpc.newBlockingStub(channel);
 

@@ -44,7 +44,7 @@ public class Main {
         OrderGrpcMethod orders = new OrderGrpcMethod();
 
         orders.orderReport();
-        orders.orderedThingReport();
+        orders.orderedItemReport();
 
         List<Item> bucketForCustomer1 = new ArrayList<>(thingsForSale.subList(0, 2));
         makeOrder(customer1, bucketForCustomer1);
@@ -52,7 +52,7 @@ public class Main {
         makeOrder(customer2, bucketForCustomer2);
 
         orders.orderReport();
-        orders.orderedThingReport();
+        orders.orderedItemReport();
 
 
 //        headers.setContentType(MediaType.APPLICATION_JSON);
