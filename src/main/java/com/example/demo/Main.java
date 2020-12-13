@@ -117,11 +117,11 @@ public class Main {
 
     public static List<Item> createItemList(Supplier supplier) {
 
-        Item item1 = new Item("bodyCreamEvene", 12, supplier);
-        Item item2 = new Item("shampooGarnier", 41, supplier);
-        Item item3 = new Item("balmGarnier", 52, supplier);
-        Item item4 = new Item("lotionMrscrub", 61, supplier);
-        Item item5 = new Item("CreamLaroche", 57, supplier);
+        Item item1 = new Item("bodyCreamEvene", 12);
+        Item item2 = new Item("shampooGarnier", 41);
+        Item item3 = new Item("balmGarnier", 52);
+        Item item4 = new Item("lotionMrscrub", 61);
+        Item item5 = new Item("CreamLaroche", 57);
 
         return Arrays.asList(item1, item2, item3, item4, item5);
     }
